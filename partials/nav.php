@@ -13,10 +13,15 @@
             <div class="collapse navbar-collapse" id="navbarLinks">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="/" class="nav-link <?php 
-                        if (basename($_SERVER["SCRIPT_FILENAME"], ".php") == "index")
-                            echo "active";
-                    ?>">Home</a>
+                        <a href="<?php
+                            if (basename($_SERVER["SCRIPT_FILENAME"], ".php") == "index")
+                                echo "#";
+                            else
+                                echo "/";
+                        ?>" class="nav-link <?php 
+                            if (basename($_SERVER["SCRIPT_FILENAME"], ".php") == "index")
+                                echo "active";
+                        ?>">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle <?php 
@@ -38,10 +43,15 @@
                     ?>">Customers</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.php" class="nav-link  <?php 
-                        if (basename($_SERVER["SCRIPT_FILENAME"], ".php") == "contact")
-                            echo "active";
-                    ?>">Contact</a>
+                        <a href="<?php
+                            if (basename($_SERVER["SCRIPT_FILENAME"], ".php") == "index")
+                                echo "#about";
+                            else
+                                echo "/#about";
+                        ?>" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>

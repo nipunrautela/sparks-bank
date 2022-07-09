@@ -1,0 +1,192 @@
+.titleHeader {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+@media (max-width: 767px) {
+    .titleHeader {
+        font-size: 1.5rem;
+    }
+}
+
+/* Cover Section */
+
+#cover {
+    background-color: aliceblue;
+    text-align: left;
+    padding: 5rem 0;
+    padding-left: 0;
+}
+
+#cover h1#coverHeading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 .3rem greenyellow;
+}
+
+#cover .coverText {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1280px) {
+    #cover h1#coverHeading {
+        font-size: 3.5rem;
+    }
+
+    #cover .coverText {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #cover {
+        text-align: center;
+    }
+
+    #cover img {
+        margin: auto;
+        width: 70vw;
+    }
+
+    #cover .coverText {
+        margin: 0 1rem;
+    }
+}
+
+
+/* About Section */
+
+#about {
+    background-color: #292d33;
+    padding: 6rem;
+}
+
+#about h2.aboutTitle {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.aboutLeftContent {
+    color: white;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+}
+
+.aboutRightContent {
+    padding: 1rem 2rem;
+}
+
+.aboutPanel {
+    background-color: white;
+    color: black;
+    padding: 1.5rem 1rem;
+    margin: .5rem;
+}
+
+.aboutPanel>h3 {
+    font-size: 1.5rem;
+}
+
+i.panelIcon {
+    height: 3.6rem;
+    width: 3.6rem;
+    background-color: red;
+    border-radius: 50%;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    padding-top: 1.1rem;
+    margin: 1rem;
+    margin-left: .4rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+@media (max-width: 767px) {
+
+    #about {
+        padding: 3.5rem 2.5rem;
+    }
+    
+    #about h2.aboutTitle {
+        font-size: 2rem;
+    }
+
+}
+
+
+/* About Section */
+
+#features {
+    padding: 4rem 6rem;
+}
+
+#features h2.featuresTitle {
+    font-size: 3rem;
+    text-align: center;
+    margin: .5rem 0 1rem;
+}
+
+.featuresText {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 6rem 2rem;
+}
+
+.feature {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    #features {
+        padding: 2rem 2.5rem;
+    }
+
+    .featuresText {
+        padding: 0 1rem;
+    }
+}
+
+
+/* Contact Section */
+
+#contact {
+    background-color: #333333;
+    padding: 4rem 6rem;
+    color: white;
+}
+
+#contact h2.contactTitle {
+    font-size: 3rem;
+    margin: .5rem 0 1rem;
+}
+
+#contact .contactContent {
+    padding: 1rem;
+}
+
+#contact .contactText {
+    font-size: 1.2rem;
+}
+
+#contactForm {
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 1280px) {
+    #contact {
+        padding: 2rem 2.5rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .contactText {
+        padding: 0 1rem;
+    }
+}
+
