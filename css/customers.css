@@ -1,0 +1,62 @@
+body {
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#customerTitle {
+    font-size: 4.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+#customerSearchForm {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    width: 70vw;
+}
+
+#mainTable {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.tableArea {
+    overflow-x: scroll;
+}
+
+@media (max-width: 991px) {
+    #customerSearchForm {
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        width: 100vw;
+    }
+    
+    #customerTitle {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .input-group {
+        padding: .1rem;
+    }
+
+    .input-group * {
+        font-size: .8rem;
+    }
+}
+
+
+/* Customer Card */
+
+.customerCard {
+    margin: 1rem auto;
+    width: 60%;
+}
+
+@media (max-width: 425px) {
+    
+}
