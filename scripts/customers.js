@@ -226,8 +226,9 @@ function notFoundTable(id) {
 function createCard(data) {
   const card = document.createElement("div");
   card.className = "card customerCard";
+  card.setAttribute("cid", data.id);
   card.innerHTML = `
-    <div class="card-body" cid="${data.id}">
+    <div class="card-body"">
         <h2>${data.firstName} ${data.lastName}</h2>
         <p class="card-text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure reprehenderit tempora est! Rem eveniet placeat,
